@@ -1,0 +1,203 @@
+*{
+    margin: 1px;
+    padding: 1px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url('/lonely.jpg'); */
+    /* background-image: url('/contactpage.jpg'); */
+    /* background-color: rgb(248, 142, 94); */
+    background-image: url('/blackbg1.jpg');
+    background-size: 2000px;
+}
+.navbar{
+    border: hidden;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    padding: 3px 3px;
+    margin: 7px 30px;
+    background-color: black;
+    border-radius: 10px;
+    font-size:large;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color:white;
+}
+.navbar ul{
+    overflow: auto;  /* to stop overflowing of navbar */
+    padding-top: 2px;
+    margin-bottom: 8px;
+}
+.navbar input{
+    padding: 3px 15px;
+}
+.navbar input:hover{
+    color:rgb(255, 81, 0);
+}
+.search{
+    color: white;
+    float: right;
+    padding: 10px;
+    margin-right: 25px;
+    height: 30px;
+    
+}
+#btn1{
+    border-radius: 10px;
+    height: 25px;
+    width: 55px;
+    margin-right: -20px;
+    cursor: pointer;
+    color: white;
+    background-color:black;
+}
+#btn1:hover{
+    color: red;
+}
+
+#search1{
+    border-radius: 17px;
+    border-color: rgb(248, 229, 229);
+    margin-right: 15px;
+    /* background-color: antiquewhite; */
+    padding: 5px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+}
+li a:hover{
+ color: blue;
+}
+/* -------------------------------------------- */
+.container{
+    width:100%;
+    /* border: 2px solid rgb(92, 10, 61); */
+    margin: auto;
+    margin-top: 10px;
+    height: 1200px;
+}
+.items{
+    /* border: 2px solid blue; */
+    /* background-color: brown; */
+    margin: 12px 3px;
+    padding: 12PX 3px;
+}
+#about{
+    display: inline-block;
+    width: 30%;
+    margin-left: 200px;
+    height: 460px;
+    border-top-right-radius: 20px;
+    background-size: 800px;
+    color: white;
+    /* border:hidden; */
+    margin-bottom: 20px;
+    background-image: url('/blackbg1.jpg');
+    background-size: 200px;
+    margin-left: 10px;
+    border: 2px solid rgb(82, 31, 31);
+}
+#aboutpara{
+    color:rgb(155, 6, 55);
+    padding-top: 25px;
+    letter-spacing: 1px;
+    background-image: url('/blackbg1.jpg');
+    background-size: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#Skills{
+    margin-top: 50px;
+    /* float: right; */
+    clear: both;
+    width: 60%;
+    height: 300px;
+    border-top-right-radius: 20px;
+    display: inline-block;
+    background:transparent;
+    border: 2px solid rgb(82, 31, 31);
+    background-size: 800px;
+    margin-left: 80px;
+    border-bottom-left-radius: 35px;
+    border-style: groove;
+    font-weight: bolder;
+}
+#Skills h3{
+    color: white;
+    padding-bottom: 10px;
+}
+#Skillspara{
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(155, 6, 55);
+}
+#Skillsid li{
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
+    margin: auto;
+    margin-left: 70px;
+    width: 95px;
+    height: 140px;
+    background-image: url('/blackbg1.jpg');
+    background-size: 200px;
+    color: rgb(155, 6, 55);
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 40px;
+    border: hidden;
+    margin-top: 30px;
+    font-size: 22px;
+    padding-top: 53px;
+    padding-left: 21px;
+}
+#Experiences{
+  width: 60%;
+  border: 2px solid rgb(71, 71, 112);
+  height: 400px;
+  /* float: left; */
+  clear: both; 
+  margin: auto;
+  display: inline-block;
+  margin-left: 300px;
+  border-top-right-radius: 20px;
+  margin-top: 120px;
+  border-radius: 20px;
+  background-image: url('/blackbg1.jpg');
+  background-size: 300px;
+  /* border: hidden; */
+}
+#Experiences h3{
+    color: white;
+}
+#Experiencespara{
+    padding-top: 15px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-image: url('/blackbg1.jpg');
+    font-weight: bolder;
+    background-size: 500px;
+    color: rgb(155, 6, 55);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white
+}
+h3{
+    text-align: justify;
+    text-align: center;
+}
